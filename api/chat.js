@@ -225,7 +225,7 @@ export default async function handler(req, res) {
     if (u.isAdmin === true) {
       who = '\n\nInfo sistem: pengguna yang sedang ngobrol adalah ADMIN (pengelola) SANN Toolbox' +
         (uname ? ' dengan username "' + uname + '"' : '') +
-        '. Kenali dan sapa dia sebagai admin dengan santai dan hormat, dan panggil dengan namanya kalau tahu.';
+        '. Kenali dia sebagai admin (misalnya kalau ditanya siapa dia, atau soal panel admin), tapi tetap ngobrol santai dan setara seperti ke teman. JANGAN memanggilnya "bos", "boss", "tuan", "juragan", atau sebutan berlebihan lain, dan jangan terlalu formal. Panggil pakai namanya saja kalau tahu.';
     } else if (uname) {
       who = '\n\nInfo sistem: pengguna yang sedang ngobrol memakai username "' + uname + '" (pengguna biasa, bukan admin).';
     }
