@@ -21,6 +21,7 @@ Toolbox (Kalkulator & utilitas):
 - Persentase: Hitung persen dari angka, kenaikan/penurunan %, dan lainnya
 - Diskon & Pajak: Hitung harga setelah diskon dan tambahan pajak (PPN)
 - Cicilan Sederhana: Simulasi cicilan flat per bulan dari pinjaman
+- Kalkulator Target Tabungan: Hitung setoran per bulan atau lama menabung untuk capai targetmu
 - Konversi Mata Uang: Konversi kurs real-time antar mata uang dunia
 - Unit Converter: Konversi panjang, berat, suhu, volume, kecepatan
 - Base Converter: Konversi Binary, Decimal, Hexadecimal, Octal
@@ -32,6 +33,7 @@ Toolbox (Kalkulator & utilitas):
 - Barcode Generator: Buat barcode (Code128) dari teks/angka
 - Text Encoder/Decoder: Encode/decode Base64, URL, dan ROT13
 - Case Converter: UPPERCASE, lowercase, Title Case, dan lainnya
+- Generator Teks Aesthetic: Ubah teks jadi huruf bergaya untuk bio dan caption, tinggal salin
 - Text Cleaner: Hapus spasi ganda, baris kosong, karakter aneh
 - Word & Character Counter: Hitung kata, karakter, kalimat, paragraf
 - Text Reverser: Balik urutan teks atau kata
@@ -107,6 +109,8 @@ Daily Tools (Cuaca, sholat, kiblat, catatan):
 - Daily Notes: Catatan singkat harian, otomatis tersimpan
 - To-Do List: Daftar tugas dengan checklist
 - Habit Tracker: Pantau kebiasaan harianmu tiap minggu
+- Pengingat Minum Air: Catat gelas yang sudah diminum, target harian, dan jadwal minum
+- Hitung Persen Kuota: Ubah persen sisa kuota dari notif provider (misal 20%) jadi MB/GB
 - Quote of the Day: Kumpulan kutipan motivasi, umum & islami, bisa dibaca semua
 
 Produktivitas (Keuangan, dokumen, gambar, dan hitungan harian):
@@ -118,6 +122,7 @@ Produktivitas (Keuangan, dokumen, gambar, dan hitungan harian):
 - Kirim WhatsApp Tanpa Simpan Kontak: Ketik nomor, langsung buka chat WhatsApp
 - Daftar Belanja: Daftar belanja dengan centang dan perkiraan total harga
 - Kalkulator Harga Jual & Margin: Tentukan harga jual, cek untung, margin, markup, dan titik impas
+- Kalkulator Gaji & Lembur: Hitung upah lembur hari kerja dan hari libur, plus estimasi gaji yang diterima
 - Kalkulator Kalori & BMI: Hitung BMI, berat ideal, dan kebutuhan kalori harian
 
 Personal (Catatan, bookmark, backup):
@@ -209,6 +214,7 @@ Kalkulator dan utilitas (kategori Toolbox):
 - Persentase: ada tiga mode, yaitu persen dari sebuah angka, angka A itu berapa persen dari B, dan kenaikan/penurunan persen dari nilai awal ke nilai akhir.
 - Diskon & Pajak: isi harga awal, diskon (%), dan PPN (%); hasilnya potongan diskon, harga setelah diskon, nominal pajak, dan total akhir.
 - Cicilan Sederhana: isi pinjaman, bunga per tahun, dan lama bulan; hasilnya cicilan per bulan, total pinjaman plus bunga, dan total bunga. Pakai bunga flat sederhana, bukan bunga efektif/anuitas, jadi bukan pengganti simulasi resmi dari bank atau leasing.
+- Kalkulator Target Tabungan: ada dua mode. Cari setoran: isi target tabungan, jumlah yang sudah terkumpul (opsional), dan jangka waktu (1 sampai 600 bulan); hasilnya setoran per bulan, plus setara per minggu dan per hari, dan perkiraan bulan target tercapai. Cari lama menabung: isi target, yang sudah terkumpul, dan setoran per bulan; hasilnya lama menabung (tahun dan bulan) dan perkiraan bulan tercapai. Ada isian bunga atau return per tahun (opsional, dihitung bunga majemuk bulanan). Kalau tabungan sudah mencapai target, hasilnya tertulis Tercapai.
 - Konversi Mata Uang: pilih jumlah, mata uang asal dan tujuan. Kurs diambil online jadi butuh internet, dan ditampilkan kurs 1 satuan beserta waktu update-nya.
 - Unit Converter: pilih jenis (panjang, berat, suhu, volume, kecepatan), isi nilai, pilih satuan asal dan tujuan.
 - Base Converter: ketik di salah satu kolom (Binary, Decimal, Hexadecimal, Octal), kolom lain otomatis menyesuaikan.
@@ -220,6 +226,7 @@ Kalkulator dan utilitas (kategori Toolbox):
 - Barcode Generator: isi teks atau angka, jadi barcode batang sederhana yang bisa diunduh. Cocok untuk keperluan internal atau demo.
 - Text Encoder/Decoder: encode/decode Base64, URL, dan ROT13, hasil bisa disalin.
 - Case Converter, Text Cleaner (hapus spasi ganda, baris kosong, karakter aneh), Word & Character Counter (kata, karakter, karakter tanpa spasi, kalimat, paragraf), Text Reverser: tempel atau ketik teks, hasil langsung muncul.
+- Generator Teks Aesthetic: ketik teks (maksimal 120 karakter), langsung muncul sekitar 30 gaya huruf seperti Bold, Italic, Script, Fraktur, Monospace, Lebar, Small Caps, Bulat, Renggang, Coret, Garis bawah, Terbalik, Superscript, plus gaya berhiasan bintang, bulan, atau garis. Tiap gaya punya tombol Salin untuk ditempel ke bio atau caption. Ini bukan font biasa, jadi di beberapa aplikasi atau perangkat bisa tampil berbeda atau kotak-kotak; paling pas untuk huruf latin dan angka.
 - Konverter Format Gambar: pilih gambar, pilih format tujuan (PNG, JPG, WEBP), tekan Konversi lalu Unduh. Ada opsi membuang background polos (misal hitam/putih) dari tepi gambar. Kalau HP tidak bisa menghasilkan format yang diminta, file diunduh dengan format aslinya supaya nama dan isi file tetap cocok.
 
 Produktivitas:
@@ -231,6 +238,7 @@ Produktivitas:
 - Kirim WhatsApp Tanpa Simpan Kontak: isi nomor, pilih kode negara, pesan opsional, lalu Buka WhatsApp atau Salin Link. Ada riwayat yang bisa dihapus.
 - Daftar Belanja: isi nama barang, jumlah, perkiraan harga satuan; centang yang sudah dibeli, ada perkiraan total, tombol Salin, Hapus yang dibeli, dan Kosongkan semua.
 - Kalkulator Harga Jual & Margin: isi modal/HPP, biaya lain, potongan marketplace (%), jumlah terjual, biaya tetap bulanan. Bisa hitung untung dari harga jual yang kamu tentukan, atau cari harga jual dari target untung (%). Hasilnya untung, margin (dari harga jual) atau markup (dari modal), total untung, dan titik impas.
+- Kalkulator Gaji & Lembur: isi gaji pokok per bulan, tunjangan tetap, tunjangan tidak tetap atau bonus, dan potongan (BPJS, pajak, dll; yang opsional boleh dikosongkan). Pilih sistem kerja (5 hari kerja 8 jam, 6 hari kerja 7 jam, atau 6 hari kerja dengan libur di hari kerja terpendek), pilih jenis hari (hari kerja biasa atau hari libur), isi jam per hari dan jumlah hari, lalu tekan Tambah lembur (bisa beberapa entri), dan tekan Hitung. Rumus mengacu PP 35/2021: upah sejam = 1/173 dari gaji pokok plus tunjangan tetap; hari kerja jam pertama 1,5x dan jam berikutnya 2x; hari libur bertingkat 2x, 3x, lalu 4x. Hasilnya estimasi gaji diterima, upah per jam, total lembur, total jam lembur, dan rincian. Ada catatan kalau jam lembur melewati batas. Ini hanya estimasi, belum termasuk PPh 21, dan kebijakan perusahaan bisa berbeda.
 - Kalkulator Kalori & BMI: isi jenis kelamin, usia (18 tahun ke atas), berat, tinggi, aktivitas harian, dan tujuan (jaga, turun, atau naik berat). Hasilnya BMI, rentang berat ideal (BMI 18,5-24,9), dan target kalori harian dengan batas aman minimum.
 
 Waktu:
@@ -243,6 +251,8 @@ Waktu:
 Daily Tools:
 - Cuaca: ketik nama kota/kabupaten atau ketuk "Gunakan Lokasi Saya" (perlu izin lokasi). Jadwal Sholat: ketik nama kota/kabupaten, tampil jadwal hari ini dengan metode Kementerian Agama RI. Sunrise/Sunset: ketuk cek, tampil matahari terbit, terbenam, dan lama siang (perlu izin lokasi).
 - Daily Notes: tulis catatan hari ini lalu simpan, ada juga bagian tugas. Habit Tracker: tambah kebiasaan, centang tiap hari, dipantau per minggu. To-Do List: daftar tugas dengan centang. Quote of the Day: kutipan motivasi umum dan islami.
+- Pengingat Minum Air: ketuk tombol tambah 1 gelas tiap habis minum (ada tombol Kurangi 1 gelas kalau salah). Tampil total minum hari ini, bar progres, jumlah gelas, sisa target, dan jadwal minum berikutnya yang dibagi rata dari waktu bangun sampai waktu tidur. Ada grafik 7 hari terakhir. Di Pengaturan bisa ubah target harian (ml), ukuran gelas, waktu bangun dan tidur, atau hitung target dari berat badan (perkiraan umum 33 ml per kg). Aplikasi ini tidak berbunyi sendiri, jadi kalau mau diingatkan, pasang alarm di tool Alarm (itu pun hanya berbunyi kalau halaman tetap terbuka). Data tersimpan di perangkat.
+- Hitung Persen Kuota: ketik persen sisa kuota dari notif provider (atau ketuk pilihan cepat 5, 10, 20, 30, 50 persen), isi total paket dalam GB atau MB, hasilnya sisa kuota dalam MB atau GB, plus jumlah yang sudah terpakai. 1 GB dihitung 1024 MB. Total paket yang diisi diingat untuk pemakaian berikutnya.
 
 Personal:
 - Notes: judul opsional, isi, bisa dicari, diedit, dan disimpan otomatis di perangkat. Bookmark: simpan judul dan link. Favorites dan Recently Used: daftar tools favorit dan yang baru dipakai.
