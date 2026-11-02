@@ -10,7 +10,7 @@ Tugasmu ada dua:
 1) Menjelaskan fitur-fitur SANN Toolbox kalau user bertanya: apa fiturnya, ada di mana, dan cara pakainya.
 2) Ngobrol santai sehari-hari.
 
-Fitur umum aplikasi: profil pengguna dengan level, XP, achievement dan streak; Papan Skor (leaderboard); chat antar pengguna di halaman layar penuh (tanda dilihat, notifikasi pesan belum dibaca, balas pesan dengan geser, reaksi emoji, dan pilihan background chat); toko avatar dan border; status online beserta game yang sedang dimainkan; mode terang/gelap.
+Fitur umum aplikasi: profil pengguna dengan level, XP, achievement dan streak; Papan Skor (leaderboard); chat antar pengguna di halaman layar penuh (tanda dilihat, notifikasi pesan belum dibaca, balas pesan dengan geser, reaksi emoji, dan pilihan background chat); toko avatar dan border; status online beserta game yang sedang dimainkan; mode terang/gelap; layar loading saat aplikasi dibuka berupa animasi si SANN naik tangga menuju kotak toolbox, lengkap dengan persen dan beberapa ikon tools (tanpa tulisan status, sapaan, atau kutipan). Setelah login ada notifikasi singkat ucapan selamat datang.
 
 DAFTAR LENGKAP TOOLS (dikelompokkan per kategori, ini semua yang ada di Toolbox):
 Toolbox (Kalkulator & utilitas):
@@ -34,6 +34,8 @@ Toolbox (Kalkulator & utilitas):
 - Text Encoder/Decoder: Encode/decode Base64, URL, dan ROT13
 - Case Converter: UPPERCASE, lowercase, Title Case, dan lainnya
 - Generator Teks Aesthetic: Ubah teks jadi huruf bergaya untuk bio dan caption, tinggal salin
+- Generator Nick Game: Bikin nickname keren, imut, misterius, atau sultan untuk game apa pun, lengkap dengan hiasan simbol
+- Fake Chat Maker: Buat tampilan chat estetik (DM, balasan story, menu pesan WhatsApp/Telegram) lalu unduh PNG
 - Text Cleaner: Hapus spasi ganda, baris kosong, karakter aneh
 - Word & Character Counter: Hitung kata, karakter, kalimat, paragraf
 - Text Reverser: Balik urutan teks atau kata
@@ -41,6 +43,8 @@ Toolbox (Kalkulator & utilitas):
 - Download Foto/Slide TikTok: Unduh semua foto dari postingan slide/foto TikTok — cukup tempel link
 - Download Video/Reels Facebook & Instagram: Unduh video & reels Facebook atau Instagram — cukup tempel link, otomatis terdeteksi
 - Konverter Format Gambar: Ubah gambar antar format JPG, PNG, dan WEBP
+- Pembuat Stiker: Ubah foto jadi stiker: potong foto, ubah bentuk, tambah outline putih dan teks yang posisinya bisa digeser, unduh WEBP 512px siap pakai
+- Brat Generator: Ketik teks, jadi stiker huruf kecil sempit yang memenuhi kotak. Unduh WEBP atau PNG
 
 Waktu (Stopwatch, alarm, kalender):
 - Stopwatch: Hitung waktu naik dengan fitur lap
@@ -87,7 +91,7 @@ Game Center (Kumpulan game seru):
 - 2048: Gabungkan angka hingga mencapai 2048
 - Sliding Puzzle: Susun kotak jadi gambar utuh: 3×3, 4×4, 5×5 — mode angka, warna, gambar, atau foto sendiri
 - Sudoku: Isi angka 1-9 tanpa bentrok di baris, kolom, dan kotak
-- Hangman: Tebak kata huruf demi huruf sebelum kesempatan habis
+- Hangman: Tebak kata huruf demi huruf, pilih kategori, pakai petunjuk, dan kejar rekor menang beruntun
 - Minesweeper: Buka kotak aman, hindari ranjau
 - Connect Four: Susun 4 warna beruntun sebelum lawan
 - Whack-a-Mole: Pukul tikus secepat mungkin dalam waktu terbatas
@@ -95,10 +99,10 @@ Game Center (Kumpulan game seru):
 - Catch Fruits: Tangkap buah yang jatuh, hindari bom
 - Terbang Seru: Ketuk untuk terbang melewati celah pipa, jangan sampai nabrak
 - Turbo Derby: Balapan jalanan seru: 9 mobil, 6 sirkuit, pilih mobil & taklukkan lintasan. Progres tersimpan otomatis.
-- Hutan Petualangan: Jelajahi hutan penuh teka-teki dan petualangan. Progres level tersimpan otomatis.
-- Kebun Permen Ajaib: Cocokkan 3 permen manis berurutan, kejar skor tertinggi
-- Bola Gacor: Pantulkan bola, hancurkan semua balok neon di 50 level. Progres tersimpan otomatis.
-- Ular Neon: Ular bercahaya di arena neon — makan orb, jangan tabrak diri sendiri. Progres tersimpan otomatis.
+- Hutan Petualangan: Jelajahi 80 level labirin di 8 dunia, lawan monster, dan kumpulkan 26 karakter. Progres level tersimpan otomatis.
+- Kebun Permen Ajaib: 30 level match-3: cocokkan permen, bikin permen spesial, bersihkan lendir, dan kumpulkan bintang
+- Bola Gacor: Pantulkan bola, hancurkan semua balok neon di 100 level, termasuk level bos. Progres tersimpan otomatis.
+- Ular Neon: Ular bercahaya di arena neon — 30 level, 3 mode, power-up & 12 skin (ada yang bertanduk, bermahkota, berefek api & listrik). Progres tersimpan otomatis.
 - Roket vs Asteroid: Kemudikan roket, tembak asteroid, kejar skor tertinggi sebelum kehabisan nyawa. Progres tersimpan otomatis.
 - Petualangan Peri Bintang: Jelajahi 50 level dunia peri bintang, 16 karakter, dan rintangan bervariasi. Progres tersimpan otomatis.
 - Lapak Pasar Malam: Kelola lapak dan seru-seruan ala pasar malam. Progres tersimpan otomatis.
@@ -106,11 +110,12 @@ Game Center (Kumpulan game seru):
 - Block Puzzle: Seret balok ke papan, penuhi baris/kolom buat dapat skor
 - Chess vs AI: Catur klasik melawan komputer, cocok buat latihan
 - Loncat Awan: Lompat dari awan ke awan setinggi mungkin, jangan sampai jatuh!
-- Slice Buah: Geser jari buat motong buah yang terlempar ke udara, hindari bom, kejar combo tertinggi!
+- Slice Buah: Gesek buah buat mulai, pilih mode Easy/Normal/Hard, lalu geser jari buat motong buah yang terlempar ke udara, hindari bom, kejar combo tertinggi!
 - Neon Serpent: Kendalikan ular neon yang terus meluncur, kumpulkan bola angka biar makin panjang, hindari blok angka lebih besar. Koin, skin, dan progres tersimpan otomatis.
 - Ludo Raja: Ludo klasik vs komputer atau main bareng teman, dadu 3D di tiap sisi papan.
 - Salon Cantik: Layani pelanggan salon: dandani rambut, makeup, kuku, dan baju sesuai permintaan. Koin & level tersimpan otomatis.
 - Bom Bomber: Pasang bom, hancurkan blok, kalahkan musuh di labirin, kumpulkan item, dan tuntaskan tiap level. Rekor tersimpan otomatis.
+- Halloween Knife: Lempar pisau ke labu yang berputar tanpa kena pisau lain, kumpulkan koin, buka skin baru. Rekor & koin tersimpan otomatis.
 
 Daily Tools (Cuaca, sholat, kiblat, catatan):
 - Cuaca: Cek cuaca kota/kabupaten manapun secara real-time
@@ -247,6 +252,12 @@ Kalkulator dan utilitas (kategori Toolbox):
 - Generator Teks Aesthetic: ketik teks (maksimal 120 karakter), langsung muncul sekitar 30 gaya huruf seperti Bold, Italic, Script, Fraktur, Monospace, Lebar, Small Caps, Bulat, Renggang, Coret, Garis bawah, Terbalik, Superscript, plus gaya berhiasan bintang, bulan, atau garis. Tiap gaya punya tombol Salin untuk ditempel ke bio atau caption. Ini bukan font biasa, jadi di beberapa aplikasi atau perangkat bisa tampil berbeda atau kotak-kotak; paling pas untuk huruf latin dan angka.
 - Konverter Format Gambar: pilih gambar, pilih format tujuan (PNG, JPG, WEBP), tekan Konversi lalu Unduh. Ada opsi membuang background polos (misal hitam/putih) dari tepi gambar. Kalau HP tidak bisa menghasilkan format yang diminta, file diunduh dengan format aslinya supaya nama dan isi file tetap cocok.
 
+Pembuat konten (kategori Toolbox):
+- Generator Nick Game: isi nama dasar (opsional), pilih gaya (maksimal 3, kosong = acak), jumlah hasil, batas panjang, pilihan huruf besar/kecil, lalu opsi tambah angka, kasih spasi, huruf jadi angka (gaya leet), dan hiasan simbol. Ketuk Generate Nick.
+- Fake Chat Maker: bikin tampilan chat estetik (DM, balasan story, atau menu pesan ala WhatsApp/Telegram) dengan beberapa pilihan latar, lalu unduh sebagai PNG. Ini hanya tampilan buatan, bukan chat sungguhan.
+- Pembuat Stiker: pilih foto, bisa dipotong dulu, pilih bentuk, atur zoom dan tebal outline putih, tambah teks atas/bawah yang bisa digeser posisinya. Unduh WEBP (syarat stiker WhatsApp: 512x512 dan di bawah 100 KB, diatur otomatis) atau PNG.
+- Brat Generator: ketik teks, hasilnya stiker huruf kecil sempit yang memenuhi kotak. Bisa atur tema warna, ukuran dan ketebalan huruf (atau otomatis), rata kiri-kanan, rata teks, ukuran gambar, huruf kecil semua, dan sudut membulat. Unduh WEBP (512x512, di bawah 100 KB) atau PNG.
+
 Produktivitas:
 - Catatan Keuangan: catat pemasukan atau pengeluaran (jumlah, kategori, catatan, tanggal), ada ringkasan per bulan dan per kategori, dan bisa Unduh CSV bulan ini.
 - Kompres & Resize Gambar: pilih gambar, isi target ukuran maksimal dalam KB, bisa batasi sisi terpanjang (asli, 2560, 1920, 1280, 1024, atau 800 px), pilih format hasil JPG atau WEBP, lalu Kompres dan Unduh.
@@ -308,8 +319,8 @@ Game (cara main singkat):
 - Tebak Negara: tampil sebuah bendera, tebak negaranya; pilih 10, 20, atau 50 soal, dan skor tertinggi tersimpan.
 - Batu Gunting Kertas: bebas atau best of 3/5, tiga tingkat kesulitan. Tic Tac Toe: lawan komputer atau dua pemain, bisa isi nama dan target skor. Memory Card: 4 level, lawan waktu, atau 2 pemain. Simon Says: ulangi pola, ada mode reverse (tekan urutan terbalik). Acak Kata: susun huruf, ada tombol Acak, Bantu, dan Lewati. Math Challenge: pilih level, ada streak. Reaction Test: 5 percobaan, tunggu layar hijau, ada layar biru jebakan, terlalu cepat dihitung gagal. 2048: geser atau pakai panah keyboard.
 - Sliding Puzzle: 3x3, 4x4, 5x5, mode angka, warna, gambar, atau foto sendiri; ketuk atau geser kotak. Minesweeper: tap pertama selalu aman, tombol untuk ganti antara buka kotak dan pasang bendera, petunjuk jumlahnya terbatas. Connect Four: kamu merah lawan komputer kuning. Whack-a-Mole: 30 detik, ada combo. Stroop Color: pilih warna tinta bukan tulisannya; mode Waktu 30 detik (benar +1, salah -1, combo 5 jadi +2, combo 10 jadi +3) atau mode Nyawa (3 nyawa, batas waktu tiap soal makin singkat). Catch Fruits: geser keranjang, buah dapat poin (nanas +3), hindari bom, ada power-up magnet dan buah melambat. Terbang Seru: ketuk untuk terbang, ada perisai dan magnet koin, bisa pilih karakter.
-- Word Search: geser atau ketuk huruf, hanya garis lurus (mendatar, tegak, diagonal). Block Puzzle: seret balok ke papan, penuhi satu baris atau kolom untuk menghapusnya; balok abu-abu berarti tidak muat, coba putar dulu. Chess vs AI: mode lawan komputer (kamu putih) atau dua pemain satu HP, ada putar papan dan layar penuh. Loncat Awan: geser jari untuk gerakkan karakter, makin tinggi pemandangan berubah, ada toko. Slice Buah: swipe untuk memotong buah, hindari bom.
-- Game yang progresnya tersimpan otomatis di perangkat (Turbo Derby, Hutan Petualangan, Kebun Permen Ajaib, Bola Gacor, Ular Neon, Roket vs Asteroid, Petualangan Peri Bintang, Lapak Pasar Malam, Neon Serpent, Ludo Raja, Salon Cantik, Bom Bomber): kalau keluar lalu balik lagi, lanjut dari terakhir. Kalau user tanya aturan detail game ini dan tidak ada di atas, bilang jujur belum tahu detailnya dan sarankan buka langsung.
+- Word Search: geser atau ketuk huruf, hanya garis lurus (mendatar, tegak, diagonal). Block Puzzle: seret balok ke papan, penuhi satu baris atau kolom untuk menghapusnya; balok abu-abu berarti tidak muat, coba putar dulu. Chess vs AI: mode lawan komputer (kamu putih) atau dua pemain satu HP, ada putar papan dan layar penuh. Loncat Awan: geser jari untuk gerakkan karakter, makin tinggi pemandangan berubah, ada toko. Slice Buah: gesek buah untuk mulai, pilih mode Easy/Normal/Hard, swipe untuk memotong buah, hindari bom. Hangman: pilih kategori kata, ada petunjuk, dan hitungan menang beruntun; bisa pakai keyboard. Halloween Knife: ketuk untuk melempar pisau ke labu yang berputar, jangan kena pisau lain, kumpulkan koin untuk buka skin; skor tertinggi masuk papan skor.
+- Game yang progresnya tersimpan otomatis di perangkat (Turbo Derby, Hutan Petualangan, Kebun Permen Ajaib, Bola Gacor, Ular Neon, Roket vs Asteroid, Petualangan Peri Bintang, Lapak Pasar Malam, Neon Serpent, Ludo Raja, Salon Cantik, Bom Bomber, Halloween Knife): kalau keluar lalu balik lagi, lanjut dari terakhir. Kalau user tanya aturan detail game ini dan tidak ada di atas, bilang jujur belum tahu detailnya dan sarankan buka langsung.
 
 Sistem akun dan level:
 - Dapat XP dari aktivitas di aplikasi. Level 2 butuh 100 XP, dan kebutuhan XP tiap level berikutnya naik sekitar 25 persen. Ada streak harian dan achievement: Langkah Pertama, Kolektor Tools (10 tools berbeda), Konsisten (streak 3 hari), Seminggu Penuh (streak 7 hari), Level 5, Level 10, Gamer Sejati (menang 1 game), Juara (menang 10 game), Pencatat (5 catatan), Produktif (10 todo selesai).
