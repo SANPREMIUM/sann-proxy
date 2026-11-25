@@ -475,9 +475,10 @@ export default async function handler(req, res) {
       parts: [{ text: String(m.text || '').slice(0, 1500) }],
     }));
 
-    const r = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`,
-      {
+    // Panggil Gemini. Pengaturan "thinking" tidak didukung semua model, jadi kalau
+    // ditolak (400) otomatis diulang tanpa pengaturan itu.
+    const callGemini = (thinkingConfig) =>
+      fetch(`https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -486,10 +487,22 @@ export default async function handler(req, res) {
         body: JSON.stringify({
           systemInstruction: { parts: [{ text: SYSTEM_PROMPT + who }] },
           contents,
-          generationConfig: { maxOutputTokens: 600, temperature: 0.7, thinkingConfig: { thinkingBudget: 0 } },
+          generationConfig: Object.assign(
+            { maxOutputTokens: 800, temperature: 0.7 },
+            thinkingConfig ? { thinkingConfig } : {}
+          ),
         }),
-      }
-    );
+      });
+
+    // 2.5-flash / flash-lite: thinking bisa dimatikan. Model lain: coba level rendah.
+    const fastThinking = /2\.5-flash/.test(MODEL)
+      ? { thinkingBudget: 0 }
+      : /gemini-3/.test(MODEL)
+      ? { thinkingLevel: 'low' }
+      : null;
+
+    let r = await callGemini(fastThinking);
+    if (r.status === 400 && fastThinking) r = await callGemini(null);
 
     const data = await r.json();
     if (!r.ok) {
